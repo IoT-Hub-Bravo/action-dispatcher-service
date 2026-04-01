@@ -1,3 +1,5 @@
 # Remove file when real code is added
 
-A = True
+
+def hello_world():
+    return True
