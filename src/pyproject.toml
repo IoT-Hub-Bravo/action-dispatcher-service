@@ -14,7 +14,7 @@ python_functions = ["test_*"]
 addopts = [
     "--cov",
     "--cov-report=term-missing",
-    "--cov-fail-under=10",
+    "--cov-fail-under=70",
 ]
 filterwarnings = [
     "ignore::DeprecationWarning:pythonjsonlogger.*",
