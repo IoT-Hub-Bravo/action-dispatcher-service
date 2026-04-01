@@ -24,6 +24,7 @@ filterwarnings = [
 source = ["."]
 omit = [
     "*/__init__.py",
+    "*/tests/*",
 ]
 
 [tool.coverage.report]
